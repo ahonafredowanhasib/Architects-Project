@@ -155,9 +155,15 @@ main section{
     .team-image{
         grid-template-columns: repeat(1, 1fr);
     }
-    .our-features{
+    .our-features, .facts{
         margin: 20px;
     }
+    .facts-cards, .fact{
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+ 
 }
 
 /* medium size device */
